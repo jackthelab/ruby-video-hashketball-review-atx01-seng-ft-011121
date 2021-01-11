@@ -183,7 +183,7 @@ end
 
 def big_shoe_rebounds
   biggest_shoes = 0
-  biggest_shoes_rebounds
+  biggest_shoes_rebounds = 0
   
   game_hash.each do |key, value|
     game_hash[key][:players].each do |i|
