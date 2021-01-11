@@ -137,3 +137,8 @@ def num_points_scored(name)
   end
 end
 
+def shoe_size(name)
+  game_hash.each do |i|
+    i[1]
+  end
+end
