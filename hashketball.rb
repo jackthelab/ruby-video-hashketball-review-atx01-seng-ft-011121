@@ -170,3 +170,13 @@ def player_numbers(name)
   end
   player_numbers
 end
+
+def player_stats(name)
+  game_hash.each do |key, value|
+    game_hash[key][:players].each do |i|
+      if i[:player_name] == name
+        return i
+      end
+    end
+  end
+end
